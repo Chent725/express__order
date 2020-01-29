@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.set('view engine','ejs')
 
 
-//向后端发送数据
+//向后端发送数据,
 app.post('/order',controller.order)
 //前端获取后端的数据，get请求
 app.get('/all',controller.showAll)
