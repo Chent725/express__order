@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+<div class="box">
+    <h2>所有订单</h2>
+    <ul>
+        <% for(let i=0;i<result.length;i++){ %>
+            <li>
+                手机号
+                <a href="/all/<%= result[i] %>"><%= result[i] %></a>
+                的用户已订餐
+            </li>
+        <% } %>
+    </ul>
+    <a href='./'>返回</a>
+</div>
+
+
+</body>
+</html>

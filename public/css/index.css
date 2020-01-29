@@ -1,0 +1,11 @@
+.box{
+    width:400px;
+    height: 250px;
+    margin: 50px auto;
+    padding:20px;
+    border: 10px solid #e35757;
+    background-color: lightblue;
+}
+input{
+    margin:5px 0;
+}
